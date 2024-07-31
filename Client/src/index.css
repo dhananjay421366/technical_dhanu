@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  /* margin: 0px; */
+  /* padding: 0px; */
+  box-sizing: border-box;
+  background: rgb(43, 43, 43);
+  color: white;
+}
+.btnhovercolot{ 
+    background: rgb(111, 61, 46);
+}
+.krpsTW {
+  margin-top: 2.875rem;
+  margin-bottom: 1.5rem;
+  background: rgb(43, 43, 43);
+  padding: 0.75rem 0px;
+  transition: 0.2s;
+}
+.hlogo{
+  color:transparent
+}
+
+.page-title {
+  font-size: var(--font-size-100);
+  text-transform: uppercase;
+  letter-spacing: 0.32rem;
+  position: relative;
+}
+.main-tagline {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 2.2rem;
+}
+p {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  font-weight: 300;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+}
+
+.gFkwZD {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  gap: 0.625rem;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: 0.2s;
+  background: rgb(111, 61, 46);
+}
+.container {
+  padding-top: 3.625rem;
+  padding-bottom: 3.625rem;
+  gap: 3rem;
+}
+.XQsAB .hero-image--div {
+  height: 100%;
+  border-radius: 9999px;
+  display: grid;
+  place-items: center;
+}
+.XQsAB .hero-image--div .hero-image {
+  max-width: 100%;
+  width: 25rem;
+  padding: 0.5rem;
+  box-shadow: rgb(111, 61, 46) 0rem 0rem 0px 0.1rem;
+  background-color: transparent;
+  border-radius: 9999px;
+}
+.ezmeoj {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
